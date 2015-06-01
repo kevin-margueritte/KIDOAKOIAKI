@@ -1,0 +1,840 @@
+/*********************************/
+/*************GLOBAL**************/
+/*********************************/
+
+a , a:hover, a:focus, p, span {
+	text-transform: uppercase;
+	font-family: "Voltaire",Arial,sans-serif;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.wrapper {
+	margin-bottom: 100px;
+}
+
+#formulaireConnexion footer, #formulaireInscription footer, #formulaireModificationCompte footer, #gestionPot footer,
+ #creationPotEtape1 footer, #creationPotEtape2 footer, #creationPotEtape3 footer, #mesPots footer, #pageAccueil footer {
+	position: absolute;
+	bottom: 0;
+}
+
+html {
+	position: relative;
+	min-height: 100% !important;
+}
+
+@media (min-height: 885px) {
+	html {
+		height: 100%;
+	}
+}
+
+/*********************************/
+/*************HEADER**************/
+/*********************************/
+.navbar {
+	background-color: #6E28C9;
+}
+
+.nav  > li > a:hover , .nav  > li > a:focus {
+	background-color: rgba(98, 37, 177, 1);
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.navbar .glyphicon {
+	font-size: 25px;
+}
+
+.navbar .glyphicon:hover {
+	font-family: 'Glyphicons Halflings';
+}
+
+/*********************************/
+/*************FOOTER**************/
+/*********************************/
+
+footer {
+	background-color: #6E28C9;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	margin: inherit;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 25px;
+	font-size: 9px;
+	margin-right: 12px;
+	display: inline-block;
+}
+
+footer i {
+	font-size: 18px !important;
+	color: white;
+	padding-top: 7px;
+}
+
+@media (max-width: 460px) {
+	footer i {
+		display: none !important;
+	}
+}
+
+/*#pageAccueil footer, #mesPots footer {
+	bottom: inherit;
+	position: absolute;
+}*/
+
+/*********************************/
+/*************ACCUEIL*************/
+/*********************************/
+
+.slogan {
+	background-color: #222334;
+	padding-bottom: 60px;
+}
+
+.slogan p {
+  padding-top: 10%;
+  color: white;
+  text-align: center;
+  font-size: 500%;
+}
+
+.slogan #ssTitre {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+#pageAccueil #fonctionnement {
+	margin-top: 25px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#pageAccueil #fonctionnement p {
+	color: black;
+}
+
+#pageAccueil #fonctionnement hr {
+	width: 15%;
+	border-width: 3px;
+	border-color: rgb(22, 38, 71);
+	margin-bottom: 50px;
+}
+
+#pageAccueil #fonctionnement #titrePrincipal {
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#pageAccueil #fonctionnement .indicationBlock {
+	display: inline-table;
+	width: 20%;
+}
+
+#pageAccueil #fonctionnement .indicationBlock i {
+	font-size: 170px !important;
+	color: rgb(22, 38, 71);
+	margin-bottom: 26px;
+}
+
+#pageAccueil #fonctionnement .indicationBlock .titreBlock {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media (min-width: 880px) and (max-width: 1080px) {
+	#pageAccueil #fonctionnement .indicationBlock {
+		width: 24%;
+	}
+}
+
+@media (max-width: 880px) {
+	#pageAccueil #fonctionnement .indicationBlock {
+		display: inherit;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+}
+
+/*********************************/
+/*****CREATION COMPTE*************/
+/*********************************/
+.inscription {
+	background-color: #222334;
+}
+
+.titresInscription {
+	padding-top: 70px;
+ 	padding-bottom: 2%;
+}
+
+.titresInscription p {
+  text-align: center;
+}
+
+#titreCreation {
+	font-size: 270%;
+}
+
+#titreDescription {
+	font-size: 130%;
+}
+
+.formulaireInscription {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulaireInscription span {
+	color : black;
+}
+
+.input-group.formulaireInscription {
+	padding-top: 40px;
+}
+
+.formulaireInscription #password {
+  margin-bottom: 10px;
+}
+
+.formulaireInscription .progress {
+    display: block;
+    clear: both;
+    margin-bottom: inherit;
+}
+
+#formInscription input, #formInscription .progress {
+	margin-bottom: 30px;
+}
+
+#formInscription > div.alert {
+	padding-bottom: 15px;
+}
+
+.alert p {
+	text-align: center;
+}
+
+.alert-danger p {
+	color: red;
+}
+
+.alert-danger{
+	clear: both;
+}
+
+
+.alert-success p {
+	color: green;
+	clear: both;
+}
+
+
+
+/*********************************/
+/***********CONNEXION*************/
+/*********************************/
+#formConnexion > div > p {
+	text-align: center;
+	color: black;
+}
+
+#formConnexion #reinitMdp {
+	color: black;
+	font-size: 10px;
+}
+
+#formConnexion .alert-success p {
+	color: green;
+}
+}
+
+.alert-danger p {
+	color: red !important;
+}
+
+.formulaireConnexion {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.formulaireConnexion span {
+	color : black;
+}
+
+.input-group.formulaireConnexion {
+	padding-top: 40px;
+}
+
+#formConnexion > div {
+	padding-bottom: 60px;
+}
+
+#formConnexion > div.alert {
+	padding-bottom: 15px;
+}
+
+#formConnexion button {
+	padding: inherit;
+	border: inherit;
+}
+
+#formConnexion #buttonCreationCompte {
+	float: right;
+	margin-right: 15px;
+}
+
+#formConnexion #buttonCreationCompte, #formConnexion #submit {
+	width: 45%;
+}
+
+#formConnexion #buttonCreationCompte > a {
+	background-color: #f0ad4e;
+}
+
+#formConnexion #submit {
+	float: left;
+	margin-left: 15px;
+}
+
+#formConnexion #buttonCreationCompte > a, #formConnexion #submit > p {
+	width: 100%;
+}
+
+#formConnexion #submit > p {
+	background-color: #5cb85c;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.formulaireConnexion {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	.formulaireConnexion {
+		width: 80%;
+	}
+
+	#formConnexion #submit, #formConnexion #buttonCreationCompte {
+		float: inherit;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	}
+
+	#formConnexion #submit {
+		margin-bottom: 15px;
+	}
+
+	#buttonCreationCompte {
+		display: block;
+	}
+
+}
+
+/*********************************/
+/***********CREATION POT**********/
+/*********************************/
+
+@media (max-width: 1170px) {
+	#buttonEtape2, #buttonPrevisualisation, #terminer, #equerepartir, #modifierObjet {
+		float: inherit !important;
+		width: 100%  !important;
+		margin-right: inherit !important;
+		margin-left: inherit !important;
+	}
+
+	#creationPotEtape2 #buttonPrevisualisation {
+		margin-top: 60px;
+	}
+
+	#modifierObjet {
+		margin-bottom: 15px;
+	}
+
+	#submitInscription {
+		width: 100% !important;
+	}
+
+}
+
+.descrPot {
+	background-color: #222334;
+}
+
+.titresPot {
+	padding-top: 70px;
+ 	padding-bottom: 2%;
+}
+
+#creationPotEtape1 #titrePotPrevisualisation {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.titresPot p {
+  text-align: center;
+}
+
+#titreCreation {
+	font-size: 270%;
+}
+
+#titreDescription {
+	font-size: 130%;
+}
+
+#formCreationPot p, #formCreationPot a, #formCreationPot span {
+	color: black;
+}
+
+#divCreationPot {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 30px;
+}
+
+#titleCreationPot {
+	margin-bottom: 80px;
+}
+
+#buttonPrevisualisation p, #buttonEtape2 p, #buttonEtape3 p, #equerepartir p, #modifierObjet p, #terminer p, #submitInscription p {
+	color : white;
+}
+
+#buttonPrevisualisation, #buttonEtape2, #buttonEtape3, #equerepartir, #modifierObjet, #terminer, #submitInscription, #validerModificationAmi, #enrModifInfo, #gestionPot #validerAjoutObjet {
+	padding: inherit;
+	border: inherit;
+	margin-top: 15px;
+}
+
+#submitInscription {
+	width: 45%;
+}
+
+#previsualisation {
+	border: 1px solid black;
+	margin-top: 15px;
+}
+
+.note-editor p, .note-editor span, .note-editor a, #previsualisation p, #previsualisation a, #previsualisation span, #previsualisation label {
+	font-family: inherit;
+	letter-spacing: inherit;
+}
+
+#buttonPrevisualisation, #equerepartir {
+	float: left;
+	width: 45%;
+	margin-left: 15px;
+}
+
+#buttonPrevisualisation p {
+	background-color: #5cb85c;
+	width: 100%;
+}
+
+#buttonEtape2 , #buttonEtape3, #modifierObjet, #terminer {
+	float: right;
+	width: 45%;
+	margin-right: 15px;
+}
+
+#buttonEtape2 p, #buttonEtape3 p, #terminer p, #submitInscription p {
+	background-color: #f0ad4e;
+	width: 100%;
+}
+
+#formCreationPot .alert {
+	margin-top: 15px;
+}
+
+.popAmi {
+	overflow: hidden;
+	text-align: center;
+	border-bottom: 1px solid black;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.popAmi > span {
+	font-weight: bold;
+	font-size: 17x;
+}
+
+.popAmi .glyphicon-remove {
+	margin-left: 100px;
+	font-size: 25px;
+}
+
+.popAmi .glyphicon-remove, .popObjet .glyphicon-remove {
+	color: rgb(153, 19, 19) !important;
+}
+
+#creationPotEtape2 #divCreationPot .alert {
+	padding-top: 15px;
+	margin-top: 60px;
+}
+
+#divCreationPot .alert p {
+	text-align: center;
+}
+
+#divCreationPot .alert-danger p, #creationPotEtape3 .alert-danger p {
+	color: red;
+}
+
+#divCreationPot .alert, #creationPotEtape3 .alert {
+	clear: both;
+}
+
+
+#divCreationPot .alert-success p {
+	color: green;
+	clear: both;
+}
+
+#creationPotEtape3 #ajoutNomObjet {
+	width: 55%;
+	float: left;
+}
+
+#creationPotEtape3 #ajoutPrixObjet {
+	width: 20%;
+	margin-left: 2%;
+	float: right;
+}
+
+.popObjet {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+}
+
+.popObjet p {
+	font-weight: bold;
+	font-size: 18px
+}
+
+.popObjet .glyphicon-pencil, .popObjet .glyphicon-remove, #chevronUp, #chevronDown {
+	font-size: 25px;
+}
+
+#equerepartir p {
+	background-color: #d9534f;
+	width: 100%;
+	font-weight : inherit;
+}
+
+#modifierObjet p {
+	background-color: #5bc0de;
+	width: 100%;
+	font-weight : inherit;
+}
+
+#listeObjets input {
+  margin-bottom: 10px;
+}
+
+.listeAmis input[type='checkbox'] {
+	margin-right: 15px;
+}
+
+#listeObjets {
+	margin-bottom: 30px;
+}
+
+#divCreationPot #confNomObjet p, #divCreationPot .checkboxAmis p {
+	font-weight: inherit;
+}
+
+#divCreationPot .popObjet {
+	margin-bottom: 40px;
+}
+
+#divCreationPot .glyphicon-pencil {
+	margin-right: 55px;
+}
+
+/*********************************/
+/***********POT*******************/
+/*********************************/
+
+#vuePot {
+	margin-right: 15%;
+	margin-left: 15%;
+  	margin-top: 130px;
+}
+
+#vuePot p, #vuePot a, #vuePot span, #vuePot label {
+	color: inherit;
+}
+
+#gestionPot #crayon {
+	text-align: center;
+	font-size: 35px;
+}
+
+#gestionPot .descriptionObjet, #gestionPot .popAmis {
+	margin-left: 25px;	
+}
+
+#gestionPot .popAmis {
+	text-align: center;
+}
+
+#gestionPot #nomAmis {
+	float: left;
+	width: 150px;
+}
+
+#gestionPot #nomObjet {
+	width: 150px;
+} 
+
+
+#gestionPot #prix, #gestionPot #prixDu {
+	width: 150px;
+	margin-left: 50px;
+} 
+
+#gestionPot .descriptionObjet span, #gestionPot #listeAmis span {
+	font-size: 25px;
+	size: 150px;
+}
+
+#gestionPot #listeObjet > p, #gestionPot #listeAmis p, #gestionPot #montantRembourse p {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#gestionPot .descriptionObjet .glyphicon {
+	float: right;
+}
+
+#gestionPot .descriptionObjet .glyphicon-remove, #gestionPot .popAmis .glyphicon-remove {
+	margin-right: 35px;
+	font-size: 28px !important;
+	color: rgb(153, 19, 19) !important;
+}
+
+#gestionPot .popAmis .glyphicon-remove {
+	float: right;
+	margin-right: 62px;
+}
+
+#gestionPot #addAmi, #gestionPot #addObjet {
+	text-align: center;
+	font-size: 35px;
+	color: rgb(24, 116, 24);
+}
+
+#gestionPot .titreModification {
+	font-size: 20px;
+}
+
+#gestionPot .inputModification, #gestionPot #ajoutObjet, #gestionPot #modifDescrPot, #gestionPot #confNomObjet, #gestionPot .checkboxAmis {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+#gestionPot .inputModification, #gestionPot #ajoutObjet {
+	width: 40%;
+}
+
+#gestionPot #modifDescrPot, #gestionPot #confNomObjet, #gestionPot .checkboxAmis {
+	width: 80%;
+}
+
+#gestionPot #validerModificationAmi p, #gestionPot #enrModifInfo p, #gestionPot #validerAjoutObjet p {
+	background-color: #5bc0de;
+	width: 100%;
+	color : white !important;
+}
+
+#gestionPot .listeAmis span {
+	font-size: inherit !important;
+}
+
+#gestionPot #equerepartir p, #gestionPot #modifierObjet p {
+	color : white !important;
+}
+
+#gestionPot #confNomObjet {
+	margin-top: 20px;
+}
+
+#gestionPot #titrePot > p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#gestionPot #chevronUp, #gestionPot #chevronUp, #gestionPot #chevronDown  {
+	text-align: center;
+	font-size: 45px;
+}
+
+#gestionPot #prixDu {
+	margin: inherit;
+}
+
+@media (max-width: 992px) {
+	#gestionPot #prixDu {
+		margin-left: inherit;
+	}
+}
+
+@media (max-width: 768px) {
+	#gestionPot .popAmis {
+		text-align: center;
+	}
+
+	#gestionPot #nomObjet {
+		float: inherit !important;
+		margin-right: 30px;
+	}
+
+	#gestionPot #prix {
+		display: inline-block;
+	}
+
+	#gestionPot .glyphicon-remove {
+		display: inline-block;
+		margin: inherit;
+	}
+}
+
+#gestionPot #listeAmis {
+	margin-bottom: 15px
+}
+
+#gestionPot #montantRembourse p {
+	font-size: 15px;
+}
+
+#gestionPot .descriptionObjet {
+	text-align: center;
+	margin: inherit;
+}
+
+#gestionPot #nomObjet {
+	float: left;
+}
+
+#gestionPot .descriptionObjet #prix {
+	margin: inherit;
+}
+
+#gestionPot div#confNomObjet input, #gestionPot .checkboxAmis input {
+ 	margin-bottom: 10px;
+}
+
+#gestionPot .descriptionObjet, #gestionPot .popAmis {
+	margin-bottom: 25px;
+}
+
+/*********************************/
+/***********Mes Pots**************/
+/*********************************/
+
+#mesPots .affichagePot {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#mesPots .affichagePot span:hover {
+	color: rgb(202, 28, 28);
+}
+
+#mesPots .affichagePot #titrePot {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#mesPots .affichagePot .glyphicon-eye-open {
+	float: right;
+	font-size: 45px;
+	color: rgb(176, 53, 9);
+}
+
+#mesPots #vuePot {
+	margin-top: 90px;
+}
+
+#mesPots #creationPot {
+	padding: inherit;
+	border: inherit;
+	width: 30%;
+	margin-top: 35px
+}
+
+#mesPots #creationPot > p {
+	background-color: #5cb85c;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+
+	#mesPots #creationPot{
+		width: 90%;
+	}
+
+	#mesPots #vuePot {
+		margin-left: 2%;
+	}
+
+	#mesPots .affichagePot {
+		text-align: inherit;
+	}
+
+	#mesPots .affichagePot #titrePot {
+		font-size: 18px;
+	}
+
+	#mesPots .affichagePot .glyphicon-eye-open {
+		display: none;
+	}
+}
+
+/*********************************/
+/******Modification compte********/
+/*********************************/
+
+.formulaireModificationCompte {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#formModification input {
+	margin-bottom: 30px;
+}
+
+#formModification span {
+  color: black;
+}
+
+#formModification .progress {
+	clear: both;
+	margin-bottom: 30px;
+}

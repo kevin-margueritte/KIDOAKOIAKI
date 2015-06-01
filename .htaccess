@@ -1,0 +1,10 @@
+Options -Indexes
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule pot/liste /mesPots/
+RewriteRule pot/creation/1 /creationPot/
+RewriteRule pot/creation/2 /creationPot/etape2.php
+RewriteRule pot/creation/3 /creationPot/etape3.php
+RewriteRule pot/lecture /pot/
+RewriteRule utilisateur/modification /modificationCompte/
