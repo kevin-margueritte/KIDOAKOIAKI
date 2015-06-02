@@ -20,9 +20,9 @@
 			$user = $user->read();
 			$to = $user->getEmail();
 			$user->ajouteTokenReinitialisation($token);
-			ini_set("SMTP", "smtp.voyageospa.com"); 
-			ini_set("auth_username", "kidoakoiaki@voyageospa.fr"); 
-			ini_set("auth_password", "speedfight27"); 
+			ini_set("SMTP", "smtp.XXXX.com"); 
+			ini_set("auth_username", "XXXXX"); 
+			ini_set("auth_password", "XXXXX"); 
 			$subject = 'Information de récupération du mot de passe KI DOA KOI A KI';
 			$message = 'Bonjour '. $pseudo."<br><br><br>".'Cet email a été envoyé à partir du site http://www.kidoakoiaki.ovh/'. "<br><br>".
 			'Vous recevez ce message parce que vous avez demandé une réinitialisation du mot de passe de votre compte utilisateur.'. "<br><br>" .
